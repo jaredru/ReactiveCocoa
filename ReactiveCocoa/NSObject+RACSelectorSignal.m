@@ -7,7 +7,7 @@
 //
 
 #import "NSObject+RACSelectorSignal.h"
-#import "EXTRuntimeExtensions.h"
+#import "libextobjc/EXTRuntimeExtensions.h"
 #import "NSInvocation+RACTypeParsing.h"
 #import "NSObject+RACDeallocating.h"
 #import "RACCompoundDisposable.h"
@@ -104,7 +104,7 @@ static void RACSwizzleRespondsToSelector(Class class) {
 	// the instance has a signal for the selector.
 	// Otherwise, call the original -respondsToSelector:.
 	id newRespondsToSelector = ^ BOOL (id self, SEL selector) {
-		Method method = rac_getImmediateInstanceMethod(class, selector);
+		Method method = ext_getImmediateInstanceMethod(class, selector);
 
 		if (method != NULL && method_getImplementation(method) == _objc_msgForward) {
 			SEL aliasSelector = RACAliasForSelector(selector);

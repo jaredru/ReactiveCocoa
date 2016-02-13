@@ -1,3 +1,4 @@
-github "Quick/Nimble" "v0.4.2"
-github "Quick/Quick" "v0.3.1"
-github "jspahrsummers/xcconfigs" "0.7.2"
+github "Quick/Nimble" "v3.1.0"
+github "Quick/Quick" "v0.9.1"
+github "jaredru/libextobjc" "0a4a8a423e2a47969cf1f97d742f6c29e12cca3a"
+github "jspahrsummers/xcconfigs" "0.9"

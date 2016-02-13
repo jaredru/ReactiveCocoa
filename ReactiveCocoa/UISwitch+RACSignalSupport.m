@@ -7,7 +7,7 @@
 //
 
 #import "UISwitch+RACSignalSupport.h"
-#import "EXTKeyPathCoding.h"
+#import "libextobjc/EXTKeyPathCoding.h"
 #import "UIControl+RACSignalSupportPrivate.h"
 
 @implementation UISwitch (RACSignalSupport)

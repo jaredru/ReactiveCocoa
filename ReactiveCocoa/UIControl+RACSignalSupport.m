@@ -7,7 +7,7 @@
 //
 
 #import "UIControl+RACSignalSupport.h"
-#import "EXTScope.h"
+#import "libextobjc/EXTScope.h"
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"
 #import "RACSignal.h"

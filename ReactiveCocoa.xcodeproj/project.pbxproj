@@ -13,6 +13,8 @@
 		7A7065821A3F88B8001E8354 /* RACKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */; };
 		7A7065841A3F8967001E8354 /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
 		7A7065851A3F8967001E8354 /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
+		7F927E6A1C702689005217B4 /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F927E691C702689005217B4 /* libextobjc.framework */; };
+		7F927E6C1C702693005217B4 /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F927E6B1C702693005217B4 /* libextobjc.framework */; };
 		D01B7B6219EDD8FE00D26E01 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D01B7B6319EDD8FE00D26E01 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D01B7B6419EDD94B00D26E01 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -286,14 +288,6 @@
 		D037666119EDA41200A782A9 /* UITextView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764E619EDA41200A782A9 /* UITextView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D037666319EDA41200A782A9 /* UITextView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D03764E719EDA41200A782A9 /* UITextView+RACSignalSupport.m */; };
 		D037666419EDA43C00A782A9 /* ReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037666B19EDA57100A782A9 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666619EDA57100A782A9 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037666C19EDA57100A782A9 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666619EDA57100A782A9 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037666F19EDA57100A782A9 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D037666819EDA57100A782A9 /* EXTRuntimeExtensions.m */; };
-		D037667019EDA57100A782A9 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D037666819EDA57100A782A9 /* EXTRuntimeExtensions.m */; };
-		D037667119EDA57100A782A9 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666919EDA57100A782A9 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037667219EDA57100A782A9 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666919EDA57100A782A9 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037667319EDA57100A782A9 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666A19EDA57100A782A9 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037667419EDA57100A782A9 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666A19EDA57100A782A9 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03766B919EDA60000A782A9 /* NSControllerRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667619EDA60000A782A9 /* NSControllerRACSupportSpec.m */; };
 		D03766BD19EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667819EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m */; };
 		D03766BE19EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667819EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m */; };
@@ -436,6 +430,8 @@
 		7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOProxy.h; sourceTree = "<group>"; };
 		7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxy.m; sourceTree = "<group>"; };
 		7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxySpec.m; sourceTree = "<group>"; };
+		7F927E691C702689005217B4 /* libextobjc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libextobjc.framework; path = ../Carthage/Build/iOS/libextobjc.framework; sourceTree = "<group>"; };
+		7F927E6B1C702693005217B4 /* libextobjc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libextobjc.framework; path = ../Carthage/Build/Mac/libextobjc.framework; sourceTree = "<group>"; };
 		D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RACSequenceAdditions.h"; sourceTree = "<group>"; };
 		D037642B19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RACSequenceAdditions.m"; sourceTree = "<group>"; };
 		D037642C19EDA41200A782A9 /* NSControl+RACCommandSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSControl+RACCommandSupport.h"; sourceTree = "<group>"; };
@@ -624,11 +620,6 @@
 		D03764E519EDA41200A782A9 /* UITextField+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RACSignalSupport.m"; sourceTree = "<group>"; };
 		D03764E619EDA41200A782A9 /* UITextView+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		D03764E719EDA41200A782A9 /* UITextView+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+RACSignalSupport.m"; sourceTree = "<group>"; };
-		D037666619EDA57100A782A9 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		D037666719EDA57100A782A9 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		D037666819EDA57100A782A9 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
-		D037666919EDA57100A782A9 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
-		D037666A19EDA57100A782A9 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		D037667619EDA60000A782A9 /* NSControllerRACSupportSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSControllerRACSupportSpec.m; sourceTree = "<group>"; };
 		D037667819EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSEnumeratorRACSequenceAdditionsSpec.m; sourceTree = "<group>"; };
 		D037667919EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationCenterRACSupportSpec.m; sourceTree = "<group>"; };
@@ -724,6 +715,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F927E6C1C702693005217B4 /* libextobjc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +733,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F927E6A1C702689005217B4 /* libextobjc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,18 +949,6 @@
 			name = "Objective-C";
 			sourceTree = "<group>";
 		};
-		D037666519EDA57100A782A9 /* extobjc */ = {
-			isa = PBXGroup;
-			children = (
-				D037666619EDA57100A782A9 /* EXTKeyPathCoding.h */,
-				D037666719EDA57100A782A9 /* EXTRuntimeExtensions.h */,
-				D037666819EDA57100A782A9 /* EXTRuntimeExtensions.m */,
-				D037666919EDA57100A782A9 /* EXTScope.h */,
-				D037666A19EDA57100A782A9 /* metamacros.h */,
-			);
-			path = extobjc;
-			sourceTree = "<group>";
-		};
 		D037667519EDA5D900A782A9 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1063,7 +1044,8 @@
 		D04725ED19E49ED7006002AA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D037666519EDA57100A782A9 /* extobjc */,
+				7F927E6B1C702693005217B4 /* libextobjc.framework */,
+				7F927E691C702689005217B4 /* libextobjc.framework */,
 				D04725EE19E49ED7006002AA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -1179,8 +1161,6 @@
 				D037659A19EDA41200A782A9 /* RACKVOChannel.h in Headers */,
 				D037651419EDA41200A782A9 /* NSObject+RACDeallocating.h in Headers */,
 				D037650C19EDA41200A782A9 /* NSNotificationCenter+RACSupport.h in Headers */,
-				D037667319EDA57100A782A9 /* metamacros.h in Headers */,
-				D037666B19EDA57100A782A9 /* EXTKeyPathCoding.h in Headers */,
 				D03765F419EDA41200A782A9 /* RACSubscriptingAssignmentTrampoline.h in Headers */,
 				D03765C419EDA41200A782A9 /* RACScheduler+Subclass.h in Headers */,
 				D037656E19EDA41200A782A9 /* RACDisposable.h in Headers */,
@@ -1218,7 +1198,6 @@
 				D03764E819EDA41200A782A9 /* NSArray+RACSequenceAdditions.h in Headers */,
 				D037651019EDA41200A782A9 /* NSObject+RACAppKitBindings.h in Headers */,
 				D037658A19EDA41200A782A9 /* RACEvent.h in Headers */,
-				D037667119EDA57100A782A9 /* EXTScope.h in Headers */,
 				D037653819EDA41200A782A9 /* NSString+RACSequenceAdditions.h in Headers */,
 				D03764F819EDA41200A782A9 /* NSDictionary+RACSequenceAdditions.h in Headers */,
 			);
@@ -1248,9 +1227,7 @@
 				D037659B19EDA41200A782A9 /* RACKVOChannel.h in Headers */,
 				D037652D19EDA41200A782A9 /* NSOrderedSet+RACSequenceAdditions.h in Headers */,
 				D03764F919EDA41200A782A9 /* NSDictionary+RACSequenceAdditions.h in Headers */,
-				D037667219EDA57100A782A9 /* EXTScope.h in Headers */,
 				D037663519EDA41200A782A9 /* UIDatePicker+RACSignalSupport.h in Headers */,
-				D037667419EDA57100A782A9 /* metamacros.h in Headers */,
 				D03764FD19EDA41200A782A9 /* NSEnumerator+RACSequenceAdditions.h in Headers */,
 				D037652119EDA41200A782A9 /* NSObject+RACLifting.h in Headers */,
 				D037665919EDA41200A782A9 /* UITableViewHeaderFooterView+RACSignalSupport.h in Headers */,
@@ -1275,7 +1252,6 @@
 				D037653119EDA41200A782A9 /* NSSet+RACSequenceAdditions.h in Headers */,
 				D03765CB19EDA41200A782A9 /* RACSequence.h in Headers */,
 				D037662D19EDA41200A782A9 /* UIControl+RACSignalSupport.h in Headers */,
-				D037666C19EDA57100A782A9 /* EXTKeyPathCoding.h in Headers */,
 				D037658B19EDA41200A782A9 /* RACEvent.h in Headers */,
 				D03765CF19EDA41200A782A9 /* RACSerialDisposable.h in Headers */,
 				D037650519EDA41200A782A9 /* NSIndexSet+RACSequenceAdditions.h in Headers */,
@@ -1380,6 +1356,7 @@
 		D04725E119E49ED7006002AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
@@ -1471,7 +1448,6 @@
 				D03765B819EDA41200A782A9 /* RACReplaySubject.m in Sources */,
 				D03765EC19EDA41200A782A9 /* RACSubject.m in Sources */,
 				D03765D019EDA41200A782A9 /* RACSerialDisposable.m in Sources */,
-				D037666F19EDA57100A782A9 /* EXTRuntimeExtensions.m in Sources */,
 				D037653E19EDA41200A782A9 /* NSString+RACSupport.m in Sources */,
 				D037653619EDA41200A782A9 /* NSString+RACKeyPathUtilities.m in Sources */,
 				D03764FA19EDA41200A782A9 /* NSDictionary+RACSequenceAdditions.m in Sources */,
@@ -1664,7 +1640,6 @@
 				D037665B19EDA41200A782A9 /* UITableViewHeaderFooterView+RACSignalSupport.m in Sources */,
 				D037650B19EDA41200A782A9 /* NSInvocation+RACTypeParsing.m in Sources */,
 				D037660719EDA41200A782A9 /* RACTuple.m in Sources */,
-				D037667019EDA57100A782A9 /* EXTRuntimeExtensions.m in Sources */,
 				D037651F19EDA41200A782A9 /* NSObject+RACKVOWrapper.m in Sources */,
 				D037661719EDA41200A782A9 /* RACValueTransformer.m in Sources */,
 				D03765CD19EDA41200A782A9 /* RACSequence.m in Sources */,
@@ -1786,9 +1761,12 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Debug;
 		};
@@ -1798,9 +1776,12 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Release;
 		};
@@ -1844,8 +1825,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Debug;
 		};
@@ -1856,8 +1840,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Release;
 		};
@@ -1911,9 +1898,12 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Profile;
 		};
@@ -1940,8 +1930,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Profile;
 		};
@@ -1979,9 +1972,12 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Test;
 		};
@@ -2009,8 +2005,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Test;
 		};

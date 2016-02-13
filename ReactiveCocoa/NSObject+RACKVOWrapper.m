@@ -7,8 +7,8 @@
 //
 
 #import "NSObject+RACKVOWrapper.h"
-#import "EXTRuntimeExtensions.h"
-#import "EXTScope.h"
+#import "libextobjc/EXTRuntimeExtensions.h"
+#import "libextobjc/EXTScope.h"
 #import "NSObject+RACDeallocating.h"
 #import "NSString+RACKeyPathUtilities.h"
 #import "RACCompoundDisposable.h"
@@ -46,7 +46,7 @@
 
 	objc_property_t property = class_getProperty(object_getClass(self), keyPathHead.UTF8String);
 	if (property != NULL) {
-		rac_propertyAttributes *attributes = rac_copyPropertyAttributes(property);
+		ext_propertyAttributes *attributes = ext_copyPropertyAttributes(property);
 		if (attributes != NULL) {
 			@onExit {
 				free(attributes);

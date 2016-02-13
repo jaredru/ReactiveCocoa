@@ -7,7 +7,7 @@
 //
 
 #import "RACTestScheduler.h"
-#import "EXTScope.h"
+#import "libextobjc/EXTScope.h"
 #import "RACCompoundDisposable.h"
 #import "RACDisposable.h"
 #import "RACScheduler+Private.h"

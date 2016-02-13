@@ -8,7 +8,7 @@
 
 #import "RACSubscriber.h"
 #import "RACSubscriber+Private.h"
-#import "EXTScope.h"
+#import "libextobjc/EXTScope.h"
 #import "RACCompoundDisposable.h"
 
 @interface RACSubscriber ()
